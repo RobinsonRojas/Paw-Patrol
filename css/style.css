@@ -1,0 +1,26 @@
+header {
+  background-color: rgb(31, 161, 170);
+  text-align: center;
+  text-transform: uppercase;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 5px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+article {
+  width: fit-content;
+  margin: auto;
+}
+
+p {
+  font-size: 1.5em;
+  /*  1.5 mas grande que el contenedor padre que por defecto es 16px entonces queda en 24px */
+  background-color: rgb(185, 185, 185);
+  margin: 10px;
+  padding: 5px;
+}
